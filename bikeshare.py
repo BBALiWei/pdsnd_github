@@ -197,7 +197,7 @@ def user_stats(df):
 
 def display_data(df):
     start_position=0
-    step_size=5
+    step_size=10
     while True:
         selection_contious = input("Would you like to see more five rows of data? Type 'Yes' for continous and 'No' for skip:").upper()
         if selection_contious == 'YES':           
